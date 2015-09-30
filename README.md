@@ -1,2 +1,2 @@
 # MonitorSitesBot
-monitor sites bot
+Monitor sites bot
