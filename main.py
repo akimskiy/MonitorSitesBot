@@ -21,6 +21,7 @@ def init(loop):
     print("Server started at http://127.0.0.1:8080")
     return srv
 
+
 loop = asyncio.get_event_loop()
 loop.run_until_complete(init(loop))
 try:
