@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import asyncio
 from aiohttp import web
 import json
@@ -66,6 +67,7 @@ def init(loop):
                                         '127.0.0.1', 8888)
     print("Server started at http://127.0.0.1:8888")
     return srv
+
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(init(loop))
